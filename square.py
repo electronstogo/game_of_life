@@ -1,3 +1,4 @@
+# 2018 - electronstogo
 
 # Class that keeps the square properties and includes methods to handle the squares.
 class Square:
