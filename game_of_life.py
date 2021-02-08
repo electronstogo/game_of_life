@@ -1,5 +1,6 @@
+#2018 - electronstogo
+
 from tkinter import *
-from copy import deepcopy
 import square
 
 
@@ -96,7 +97,7 @@ class GameOfLife:
     # Screen update.
     def update(self):
         if not self.init_active:
-            square_buffer_list = deepcopy(self.square_list)
+            square_buffer_list = self.square_list[:]
 
             for rows in range(int(SQUARES_IN_A_ROW)):
                 for columns in range(int(SQUARES_IN_A_COLUMN)):
